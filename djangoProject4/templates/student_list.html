@@ -1,0 +1,22 @@
+<html><body>
+<h1>List of all students in {{students.first.className}} :</h1>
+
+
+<ul>
+    {% for student in students %}
+        <p><li>{{ student.studentName }} -
+        <a href="{% url 'student-detail' pk=student.pk  %}">Edit Student name & Grade</a></li></p>
+        <a href="
+{% url 'student-delete' name=student.schoolName className=student.className studentName=student.studentName %}">
+            Delete Student</a> </li></p>
+        Grade of this student: {{ student.studentGrade }}
+    {% endfor %}
+</ul>
+
+<a href="{% url 'school_class-list' name=students.first.schoolName %}"> Back </a>
+
+
+
+</body></html>
+
+

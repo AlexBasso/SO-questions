@@ -1,0 +1,15 @@
+{% load rest_framework %}
+<html><body>
+<h1>Delete Class: "{{ school.first.className}}" from school "{{ school.first.schoolName}}"</h1>
+
+<ul>
+Are you sure you want to
+<form action="{% url 'school_class-delete' name=school.first.schoolName className=school.first.className  %}" method="POST" data-method="DELETE">
+    {% csrf_token %}
+
+    <input type="submit" value="delete"> ?
+</form>
+</ul>
+<a href="{% url 'school_class-list' name=school.first.schoolName %}"> Back </a>
+</body></html>
+

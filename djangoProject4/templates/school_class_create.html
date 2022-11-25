@@ -1,0 +1,18 @@
+{% load rest_framework %}
+
+<html><body>
+
+<h1>Create Class for - {{ schoolclasses.first.schoolName  }}</h1>
+
+<div class="offset-3 col-md-6">
+<form action="{% url 'school_class-create' name=202  %}" method="POST">
+    <div class="form-group">
+
+    {% csrf_token %}
+    {% render_form serializer %}
+
+</div>
+   <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+</body></html>

@@ -1,0 +1,20 @@
+<html><body>
+<h1>List of all classes in {{schoolclasses.first.schoolName}} :</h1>
+
+
+<ul>
+    {% for class in schoolclasses %}
+        <p><a href="{% url 'student-list' name=class.schoolName className=class.className %}"><li>{{ class.className }}</a>  -
+            <a href="{% url 'school_class-detail' pk=class.pk  %}"> Edit Class & Profeesor name </a>  </li> </p>
+            <a href="{% url 'school_class-delete' name=class.schoolName className=class.className %}">
+                Delete Class</a> </li></p>
+        Professor of this class: {{ class.professorName }}
+    {% endfor %}
+</ul>
+
+<!--  <a href="% url 'school_class-create' name=schoolclasses.first.schoolName %"> Create -  </a> -->
+
+<a href="{% url 'tmp_school-list' %}"> Back </a>
+</body></html>
+
+

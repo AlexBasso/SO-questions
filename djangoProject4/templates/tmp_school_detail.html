@@ -1,0 +1,14 @@
+{% load rest_framework %}
+
+<html><body>
+
+<h1>School - {{ school.schoolName }}</h1>
+
+<form action="{% url 'tmp_school-detail' name=school.first.schoolName %}" method="POST">
+    {% csrf_token %}
+    {% render_form serializer %}
+    <input type="submit" value="Save">
+</form>
+
+<a href="{% url 'tmp_school-list' %}"> Back </a>
+</body></html>

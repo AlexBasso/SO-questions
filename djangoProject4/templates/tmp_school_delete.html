@@ -1,0 +1,15 @@
+
+<html><body>
+<h1>Delete School: {{ school.first.schoolName}}</h1>
+
+<ul>
+Are you sure you want to
+<form action="{% url 'tmp_school-delete' name=school.first.schoolName  %}" method="POST" data-method="DELETE">
+    {% csrf_token %}
+
+    <input type="submit" value="delete"> ?
+</form>
+</ul>
+<a href="{% url 'tmp_school-list' %}"> Back </a>
+</body></html>
+

@@ -1,0 +1,14 @@
+{% load rest_framework %}
+
+<html><body>
+
+<h1>Edit Class & Profeesor name - {{ school.className }} from {{ school.schoolName }}:</h1>
+
+<form action="{% url 'school_class-detail' pk=school.pk %}" method="POST">
+    {% csrf_token %}
+    {% render_form serializer %}
+    <input type="submit" value="Save">
+</form>
+
+<a href="{% url 'school_class-list' name=school.schoolName %}"> Back </a>
+</body></html>

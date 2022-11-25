@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76f28a93-9435-4087-a01d-3c00e5e47ef1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/stackoverflow-question" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HoDMB61FlFraSYpR3Oize2SJvH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Python/test/djangoProject4/templates&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\test\djangoProject4\templates" />
+      <recent name="D:\Python\test\djangoProject4\app\templates\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="djangoProject4" type="Python.DjangoServer" factoryName="Django server">
+      <module name="djangoProject4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76f28a93-9435-4087-a01d-3c00e5e47ef1" name="Changes" comment="" />
+      <created>1668942491558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668942491558</updated>
+      <workItem from="1668942515038" duration="151000" />
+      <workItem from="1668942777696" duration="824000" />
+      <workItem from="1668943630048" duration="7000" />
+      <workItem from="1668943647388" duration="284000" />
+      <workItem from="1668943943852" duration="8000" />
+      <workItem from="1668944042214" duration="122000" />
+      <workItem from="1668944177462" duration="275000" />
+      <workItem from="1668944492473" duration="1061000" />
+      <workItem from="1668945608224" duration="2486000" />
+      <workItem from="1669038264817" duration="4028000" />
+      <workItem from="1669042340613" duration="107000" />
+      <workItem from="1669042458642" duration="421000" />
+      <workItem from="1669042909483" duration="685000" />
+      <workItem from="1669043628860" duration="1518000" />
+      <workItem from="1669045221184" duration="197000" />
+      <workItem from="1669045436002" duration="2417000" />
+      <workItem from="1669048036735" duration="853000" />
+      <workItem from="1669049031508" duration="17000" />
+      <workItem from="1669053343260" duration="9000" />
+      <workItem from="1669063681638" duration="252000" />
+      <workItem from="1669063953850" duration="348000" />
+      <workItem from="1669064317304" duration="1211000" />
+      <workItem from="1669065556080" duration="1847000" />
+      <workItem from="1669106636772" duration="4635000" />
+      <workItem from="1669111826097" duration="29680000" />
+      <workItem from="1669199983425" duration="6934000" />
+      <workItem from="1669210595941" duration="15952000" />
+      <workItem from="1669304016111" duration="723000" />
+      <workItem from="1669381499805" duration="16348000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

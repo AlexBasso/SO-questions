@@ -1,0 +1,17 @@
+<html><body>
+<h1>List of all Schools:</h1>
+<ul>
+
+  {% for school in schools %}
+
+        <p><a href="{% url 'school_class-list' name=school.schoolName %}"><li>{{ school.schoolName }}</a> -
+            <a href="{% url 'tmp_school-detail' name=school.schoolName %}">Edit School Name </a> </li> -
+            <a href="{% url 'tmp_school-delete' name=school.schoolName %}">Delete School </a> </li></p>
+
+    {% endfor %}
+
+</ul>
+
+<a href="{% url 'tmp_school-create' %}"> Create </a>
+</body></html>
+
